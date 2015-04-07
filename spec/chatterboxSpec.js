@@ -39,7 +39,7 @@ describe('chatterbox', function() {
       it('should send the correct message along with the request', function(done){
         var message = {
           username: 'Mel Brooks',
-          text: 'It\'s good to be the king',
+          text: 'Its good to be the king',
           roomname: 'lobby'
         };
 
@@ -67,7 +67,7 @@ describe('chatterbox', function() {
 
     });
 
-    describe('chatroom behavior', function() {
+    describe('chatroom behavior', function() {''
       it('should be able to clear messages from the DOM', function(){
         var orig = $('#chats').html('<blink>OMG IT\'s 1998!</blink>');
         app.clearMessages();
@@ -100,7 +100,7 @@ describe('chatterbox', function() {
 
         app.addMessage({
           username: 'Mel Brooks',
-          text: 'I didn\'t get a harumph outa that guy.!',
+          text: 'I didnt get a harumph outa that guy.!',
           roomname: 'lobby'
         });
 
